@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Configuración de entorno virtual
+env/
+venv/
+.venv/
+
+# Data
+data/processed/
+data/raw/
+*.csv
+*.json
+
+# Archivos de datos y logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+*.pid
+tmp/
+
+# Modelos y artefactos
+runs/
+weights/
+*.h5
+*.pt
+*.onnx
+runs/
+
+# Archivos de configuración locales
+.idea/
+.vscode/

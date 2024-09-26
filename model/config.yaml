@@ -1,0 +1,16 @@
+paths:
+  data_dir: data/raw
+  processed_dir: data/processed/
+
+preprocessing:
+  test_size: 0.2
+  val_size: 0.1
+  random_state: 123
+
+model:
+  model_name: yolov8n-cls
+  path_model: runs/classify/train/weights/best.pt
+  img_size: 256
+  batch_size: 8
+  epochs: 8
+  device: 0  # Si tienes GPU, se usa automáticamente. Si no, se utiliza la CPU.
